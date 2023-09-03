@@ -24,4 +24,17 @@ API que permita buscar personas según sus habilidades
 - nit **FK**
 - numero_identificacion **FK**
 - horas_contratadas
+- direccion
+- dia_hora
 
+### Pagos
+
+- numero_trx **PK**
+- cotizacion_id **FK**
+- pago
+
+### Calificaciones
+
+- calificacion_id
+- numero_identificacion **FK**
+- obeservacion

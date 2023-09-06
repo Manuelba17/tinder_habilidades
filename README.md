@@ -35,6 +35,7 @@ API que permita buscar personas según sus habilidades
 
 ### Calificaciones
 
-- calificacion_id
+- calificacion_id **PK**
 - numero_identificacion **FK**
+- cotizacion_id **FK**
 - obeservacion

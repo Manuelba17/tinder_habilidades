@@ -16,7 +16,7 @@ API que permita buscar personas según sus habilidades
 
 - nit **PK**
 - nombre
-- 
+  
 
 ### Cotizaciones
 

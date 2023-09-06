@@ -26,16 +26,19 @@ API que permita buscar personas según sus habilidades
 - horas_contratadas
 - direccion
 - dia_hora
+- estado_cotizacion
+- fecha_cotizacion
 
 ### Pagos
 
 - numero_trx **PK**
 - cotizacion_id **FK**
-- pago
+- anticipacion
+- pago_total
+  
 
 ### Calificaciones
 
 - calificacion_id **PK**
-- numero_identificacion **FK**
 - cotizacion_id **FK**
 - obeservacion
